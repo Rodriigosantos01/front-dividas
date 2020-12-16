@@ -198,7 +198,7 @@ const Home = () => {
                         </nav>
                         <div className="col-md-12 border mt-1">
                             {
-                                !dividas.length ?
+                                !dividas ?
                                     <Spinner />
                                     :
                                     <table className="table table-striped">
